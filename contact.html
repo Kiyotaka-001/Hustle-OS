@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Hustle.os — Book Demo</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="page-transition"></div>
+
+  <header class="navbar">
+    <a href="home.html" class="nav-logo">Hustle.os</a>
+
+    <nav class="nav-links">
+      <a href="problem.html">Problem</a>
+      <a href="system.html">System</a>
+      <a href="features.html">Features</a>
+      <a href="audience.html">Audience</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html">Book Demo</a>
+    </nav>
+
+    <button class="menu-btn" id="menuBtn">Menu</button>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="problem.html">Problem</a>
+    <a href="system.html">System</a>
+    <a href="features.html">Features</a>
+    <a href="audience.html">Audience</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="contact.html">Book Demo</a>
+  </div>
+
+  <main class="inner-page contact-page">
+
+    <section class="contact-panel reveal">
+      <p class="eyebrow">Book a demo</p>
+
+      <h1>Ready to stop guessing and start tracking?</h1>
+
+      <p>
+        Tell us what your business sells, how customers currently order,
+        and what part of the business feels the most scattered.
+      </p>
+
+      <form id="demoForm">
+        <input type="text" placeholder="Business Name" required />
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Email Address" required />
+        <input type="text" placeholder="WhatsApp Number" required />
+
+        <select required>
+          <option value="">Choose Package</option>
+          <option>Starter</option>
+          <option>Growth</option>
+          <option>Business OS</option>
+          <option>Monthly Support</option>
+        </select>
+
+        <textarea placeholder="What do you need help tracking? Orders, sales, customers, debt, inventory, expenses?" required></textarea>
+
+        <button type="submit" class="btn dark-btn">Request Demo</button>
+      </form>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
